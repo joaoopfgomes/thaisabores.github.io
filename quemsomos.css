@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body {width: 100% ;}
+
+#thai{
+
+
+background: url(image_2.jpg);
+background-repeat: no-repeat;
+height: 500px;
+width: 100%;
+background-size: 100% 100%;
+background-size: cover;
+
+}
+
+#navbar {
+display: flex;
+justify-content: space-between;
+color: white;
+width: 90%;
+height: 300px;
+
+
+
+}
+#navbar a {text-decoration: none;
+color: white;}
+
+#navbar p {padding-top: 50px;
+font-size: 36px;
+gap: 10%;
+}
+
+#headercontainer{
+    display: grid;
+    justify-content: center;
+    color: white;
+    font-family: "Bona Nova SC", serif;
+    font-size: 35px;
+    gap: 15px;
+}
+
+.red { color: red;}
+
+.container{
+    display: grid;
+    padding-left: 10%;
+    padding-top: 30px;
+    font-family: "Bona Nova SC", serif;
+    font-size: 18px;
+}
+
+.container h2{ padding-bottom: 20px;}
+
+.elefante{ display: flex;
+justify-content: center;
+padding-top: 50px;}
+
+.food{display: flex;
+justify-content: end;}
+
+footer {background-color: #323232;
+    font-family: "Bona Nova SC", serif;
+    display: grid;
+    align-content: start;
+    align-items: stretch;
+    justify-items: center; 
+    color: white;
+    
+    height: 200px;
+   
+}
+
+footer p{padding-top: 20px;}
+
+
+
+
+
+.socialmedia img {height: 30px;
+}
+.socialmedia{ width: 40%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+    
+}
+
+#navbar a:hover {
+    
+    color: #ac8282;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);}
